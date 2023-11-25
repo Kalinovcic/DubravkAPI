@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang=hr>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width, initial-scale=1.0">
+<meta name=description content="DubravkAPI">
+<title>DubravkAPI</title>
+
+<style>
+body {
+ background: #111;
+ margin: 0;
+ padding: 1rem;
+}
+
+.showcase {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+ gap: 1rem;
+}
+
+.dubravka {
+ position: relative;
+ aspect-ratio: 1;
+ overflow: hidden;
+ background: #222;
+
+ display: grid;
+ grid-template-rows: 1fr 7rem;
+}
+
+.dubravka > img {
+ width: 100%;
+ height: 100%;
+ object-fit: contain;
+ overflow: hidden;
+}
+
+.dubravka > div {
+ background: #444;
+ color: white;
+ display: grid;
+ grid-template-rows: 2.5rem 1fr;
+}
+
+.title {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-family: monospace;
+ font-size: 1.3rem;
+}
+
+.quote {
+ display: grid;
+ quotes: "„" "“";
+ grid-template-columns: 1fr;
+ text-align: center;
+ font-family: serif;
+ font-style: italic;
+ font-size: 1.2rem;
+ padding: 0 1rem;
+ text-wrap: balance;
+}
+
+.quote::after {
+ display: block;
+ content: "- Dubravka Brezak Stamać";
+ justify-self: right;
+ font-style: normal;
+ font-size: 1rem;
+}
+
+</style>
+
+<section class="showcase">
+ <div class="dubravka"><img src="100.jpg"><div><span class="title">100: Continue                        </span><span class="quote">Karlo Veliki vodi križarske ratove.</span></div></div>
+ <div class="dubravka"><img src="101.jpg"><div><span class="title">101: Switching Protocols             </span><span class="quote">Jazik je staroslavenski za država.</span></div></div>
+ <div class="dubravka"><img src="102.jpg"><div><span class="title">102: Processing                      </span><span class="quote">Dakle koji je zaključak ove konkluzije?</span></div></div>
+ <div class="dubravka"><img src="103.jpg"><div><span class="title">103: Early hints                     </span><span class="quote">Osjećam se pomalo autistično...</span></div></div>
+ <div class="dubravka"><img src="200.jpg"><div><span class="title">200: OK                              </span><span class="quote">Ove ocjene ćemo ocijeniti.</span></div></div>
+ <div class="dubravka"><img src="201.jpg"><div><span class="title">201: Created                         </span><span class="quote">'Djeca' nije zbirna imenica.</span></div></div>
+ <div class="dubravka"><img src="202.jpg"><div><span class="title">202: Accepted                        </span><span class="quote">Čovjek je najinteligentnije ljudsko biće.</span></div></div>
+ <div class="dubravka"><img src="203.jpg"><div><span class="title">203: Non-authoritative Information   </span><span class="quote">Argumentiranje je citiranje.</span></div></div>
+ <div class="dubravka"><img src="204.jpg"><div><span class="title">204: No Content                      </span><span class="quote">Kako bi se reklo na grčkom, tabula rasa.</span></div></div>
+ <div class="dubravka"><img src="206.jpg"><div><span class="title">206: Partial Content                 </span><span class="quote">Zlatni rez je 1:1</span></div></div>
+ <div class="dubravka"><img src="300.jpg"><div><span class="title">300: Multiple Choices                </span><span class="quote">Danas se svi oblačimo isto, za razliku od srednjeg vijeka.</span></div></div>
+ <div class="dubravka"><img src="301.jpg"><div><span class="title">301: Moved Permanently               </span><span class="quote">Starenjem ljudi oružne, ali i stare.</span></div></div>
+ <div class="dubravka"><img src="302.jpg"><div><span class="title">302: Found                           </span><span class="quote">Pronađi u lektiri gdje vidimo Wertherovo najdraže jelo.</span></div></div>
+ <div class="dubravka"><img src="303.jpg"><div><span class="title">303: See Other                       </span><span class="quote">Karlo Veliki je bio car Svetog Rimskog Carstva.</span></div></div>
+ <div class="dubravka"><img src="304.jpg"><div><span class="title">304: Not Modified                    </span><span class="quote">Nije ovo škola za djecu s posebnim potrebama.</span></div></div>
+ <div class="dubravka"><img src="305.jpg"><div><span class="title">305: Use Proxy                       </span><span class="quote">Bašćanska ploča je napisana na dan svetog Nikole.</span></div></div>
+ <div class="dubravka"><img src="306.jpg"><div><span class="title">306: Switch Proxy                    </span><span class="quote">Pokušavam živjeti poput Petra Hektorovića.</span></div></div>
+ <div class="dubravka"><img src="307.jpg"><div><span class="title">307: Temporary Redirect              </span><span class="quote">Mogla sam pozvati tetu s porte, pa joj ti šapći...</span></div></div>
+ <div class="dubravka"><img src="308.jpg"><div><span class="title">308: Permanent Redirect              </span><span class="quote">Drinopolje je Carigrad.</span></div></div>
+ <div class="dubravka"><img src="400.jpg"><div><span class="title">400: Bad Request                     </span><span class="quote">Je li to šah mat ili mat?</span></div></div>
+ <div class="dubravka"><img src="401.jpg"><div><span class="title">401: Unauthorized                    </span><span class="quote">Zvonimir je prvi kralj jer je pričao s papom.</span></div></div>
+ <div class="dubravka"><img src="402.jpg"><div><span class="title">402: Payment Required                </span><span class="quote">Svaka normalna zemlja plaća zdravstveno osiguranje.</span></div></div>
+ <div class="dubravka"><img src="403.jpg"><div><span class="title">403: Forbidden                       </span><span class="quote">Ne možemo kao u vrtiću en-ten-tini te glasovne promjene!</span></div></div>
+ <div class="dubravka"><img src="404.jpg"><div><span class="title">404: Not Found                       </span><span class="quote">Prirodnih bisera vise nema, njima treba tisuće godina da nastanu.</span></div></div>
+ <div class="dubravka"><img src="405.jpg"><div><span class="title">405: Method Not Allowed              </span><span class="quote">Vid glagolskih pridjeva je jednina ili množina.</span></div></div>
+ <div class="dubravka"><img src="406.jpg"><div><span class="title">406: Not Acceptable                  </span><span class="quote">Psi su inteligentni samo jer ih ljudi uče, inače skaću i piške gdje god žele.</span></div></div>
+ <div class="dubravka"><img src="407.jpg"><div><span class="title">407: Proxy Authentication Required   </span><span class="quote">Kako se kaže u biologiji: metiljavo, nametnici, peronospore, amebe.</span></div></div>
+ <div class="dubravka"><img src="408.jpg"><div><span class="title">408: Request Timeout                 </span><span class="quote">Kljucanje je drijemanje.</span></div></div>
+ <div class="dubravka"><img src="409.jpg"><div><span class="title">409: Conflict                        </span><span class="quote">Ja dnevno pojedem kilogram čokolade - čokolada je u akuzativu.</span></div></div>
+ <div class="dubravka"><img src="410.jpg"><div><span class="title">410: Gone                            </span><span class="quote">Slonovi su izumrle životinje.</span></div></div>
+ <div class="dubravka"><img src="411.jpg"><div><span class="title">411: Length Required                 </span><span class="quote">Digitalnu knjigu ne možeš ni staviti u džep, pravu možeš.</span></div></div>
+ <div class="dubravka"><img src="412.jpg"><div><span class="title">412: Precondition Required           </span><span class="quote">Glagoljica je bazirana na ćirilici.</span></div></div>
+ <div class="dubravka"><img src="413.jpg"><div><span class="title">413: Payload Too Large               </span><span class="quote">Svijet ima četiri kontinenta.</span></div></div>
+ <div class="dubravka"><img src="415.jpg"><div><span class="title">415: Unsupported Media Type          </span><span class="quote">Dijalektne riječi nisu istoznačnice, ako ja ne govorim taj dijalekt meni to ništa ne znači!</span></div></div>
+ <div class="dubravka"><img src="416.jpg"><div><span class="title">416: Range Not Satisfyable           </span><span class="quote">33 je negativan broj.</span></div></div>
+ <div class="dubravka"><img src="417.jpg"><div><span class="title">417: Expectation Failed              </span><span class="quote">Šta, sezona je kiselih krastavaca?</span></div></div>
+ <div class="dubravka"><img src="418.jpg"><div><span class="title">418: I'm a Teapot                    </span><span class="quote">Majka, mama... To je u stvari mater.</span></div></div>
+ <div class="dubravka"><img src="421.jpg"><div><span class="title">421: Misdirected request             </span><span class="quote">Uber pokupi ljude okolo na svojoj ruti.</span></div></div>
+ <div class="dubravka"><img src="422.jpg"><div><span class="title">422: Unprocessable Content           </span><span class="quote">Dva i deset je dvadeset.</span></div></div>
+ <div class="dubravka"><img src="424.jpg"><div><span class="title">424: Failed Dependency               </span><span class="quote">Iluminacije, to je tehnika crtanja sa sjenama.</span></div></div>
+ <div class="dubravka"><img src="425.jpg"><div><span class="title">425: Too Early                       </span><span class="quote">Rano ljeto, to je u stvari zima.</span></div></div>
+ <div class="dubravka"><img src="426.jpg"><div><span class="title">426: Upgrade Required                </span><span class="quote">Danas koristimo julijanski kalendar, gregorijanski je stariji.</span></div></div>
+ <div class="dubravka"><img src="429.jpg"><div><span class="title">429: Too Many Requests               </span><span class="quote">Nećemo dva put čitati, kao da smo u školi za gluhe.</span></div></div>
+ <div class="dubravka"><img src="431.jpg"><div><span class="title">431: Request Header Fields Too Large </span><span class="quote">Portreti su najteži za crtati, zbog proporcija.</span></div></div>
+ <div class="dubravka"><img src="450.jpg"><div><span class="title">450: Blocked By Parental Controls    </span><span class="quote">Papa je rimski car.</span></div></div>
+ <div class="dubravka"><img src="451.jpg"><div><span class="title">451: Unavailable For Legal Reasons   </span><span class="quote">Ribe dolaze i odlaze slobodnim padom vode u bazen.</span></div></div>
+ <div class="dubravka"><img src="500.jpg"><div><span class="title">500: Internal Server Error           </span><span class="quote">Dva futura i dva prezenta, dakle vidimo da prevladava futur.</span></div></div>
+ <div class="dubravka"><img src="501.jpg"><div><span class="title">501: Not Implemented                 </span><span class="quote">Življenje je sinonim za život.</span></div></div>
+ <div class="dubravka"><img src="502.jpg"><div><span class="title">502: Bad Gateway                     </span><span class="quote">Boemstvo nije klošarstvo.</span></div></div>
+ <div class="dubravka"><img src="503.jpg"><div><span class="title">503: Service Unavailable             </span><span class="quote">Dunav izvire u Švicarskoj.</span></div></div>
+ <div class="dubravka"><img src="504.jpg"><div><span class="title">504: Gateway Timeout                 </span><span class="quote">Fizičari danas znaju što je vrijeme, put kroz brzina.</span></div></div>
+ <div class="dubravka"><img src="506.jpg"><div><span class="title">506: Variant Also Negotiates         </span><span class="quote">Nismo tete na placu da se cjenkamo!</span></div></div>
+ <div class="dubravka"><img src="507.jpg"><div><span class="title">507: Insufficient Storage            </span><span class="quote">Dečki... Manje knjiga, više znanja!</span></div></div>
+ <div class="dubravka"><img src="508.jpg"><div><span class="title">508: Loop Detected                   </span><span class="quote">"Mislim dakle postojim", dakle ako imaš Alzheimera, ne možeš baš više razmišljati.</span></div></div>
+ <div class="dubravka"><img src="510.jpg"><div><span class="title">510: Not Extended                    </span><span class="quote">Dalek, dalekiji, najdalekiji.</span></div></div>
+ <div class="dubravka"><img src="511.jpg"><div><span class="title">511: Network Authentication Failed   </span><span class="quote">Nismo svjesni sebe dok ne progovorimo.</span></div></div>
+ <div class="dubravka"><img src="525.jpg"><div><span class="title">525: SSL Handshake Failed            </span><span class="quote">Rimbaud i Verlaine su bili prijatelji.</span></div></div>
+</section>
