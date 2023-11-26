@@ -10,6 +10,23 @@ body {
  background: #111;
  margin: 0;
  padding: 1rem;
+ color: white;
+}
+
+h1 {
+ font-family: monospace;
+ text-align: center;
+ text-wrap: balanced;
+ font-size: clamp(2rem, 6vw, 4rem);
+ margin: 0.5em 2rem;
+}
+
+.usage {
+ font-family: monospace;
+ text-align: center;
+ text-wrap: balanced;
+ font-size: clamp(1rem, 3vw, 2rem);
+ margin: 1em 2rem;
 }
 
 .showcase {
@@ -37,7 +54,6 @@ body {
 
 .dubravka > div {
  background: #444;
- color: white;
  display: grid;
  grid-template-rows: 2.5rem 1fr;
 }
@@ -71,6 +87,10 @@ body {
 }
 
 </style>
+
+<h1>HTTP DubravkAPI</h1>
+
+<p class="usage">https://www.lovro.dev/DubravkAPI/&lt;status&gt;.jpg</p>
 
 <section class="showcase">
  <div class="dubravka"><img src="100.jpg"><div><span class="title">100: Continue                        </span><span class="quote">Karlo Veliki vodi križarske ratove.</span></div></div>
